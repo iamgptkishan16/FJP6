@@ -25,3 +25,20 @@ while(count > 0){
     console.log(count);
     count--;
 } //while loop
+
+//i prime
+
+let num = 4;
+let isPrime = true;
+
+for(let i = 2; i*i <= num; i++){
+    if(num%i == 0){
+        isPrime = false;
+    }
+    
+}
+if(isPrime == true){
+    console.log("Number is Prime Number");
+} else {
+    console.log("Number is not Prime Number");
+}
