@@ -29,3 +29,16 @@ function sum(num1, num2){
     console.log("Addition is = " + addition);
 }
 sum(2,3);
+
+//IIFE (Immediately invoked function expression)
+
+(function(){
+    console.log("Namaste Bharat!!");
+})();
+
+//IIFE with parameter
+
+(function(num1, num2){
+    let plus = num1+num2;
+    console.log("Sum is + "+ plus);
+})(6, 9);
