@@ -26,7 +26,7 @@ while(count > 0){
     count--;
 } //while loop
 
-//i prime
+//is prime
 
 let num = 4;
 let isPrime = true;
