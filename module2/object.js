@@ -59,4 +59,5 @@ console.log("Object after updatation :", kashi);
 
 console.log(kashi.Name);// 1st method
 console.log(kashi["Name"]);//2nd method
+console.log(kashi["Address"]["Pincode"]);
 
