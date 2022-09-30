@@ -55,7 +55,7 @@ console.log("Object after deletion of key :", kashi);
 console.log("Object before updatation :", kashi);
 kashi.isEngineer =  true;
 console.log("Object after updatation :", kashi);
-// second method to access an key
+// second method to access a key
 
 console.log(kashi.Name);// 1st method
 console.log(kashi["Name"]);//2nd method
