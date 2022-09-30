@@ -1,7 +1,7 @@
 //empty object
 let obj = {};
 console.log(obj);
-
+//object concepts
 let objKishan = 
 {
     NAME : "Kishan Kumar",
