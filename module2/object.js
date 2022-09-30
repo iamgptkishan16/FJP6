@@ -26,3 +26,13 @@ let kashi = {
     }
 }
 console.log(kashi);
+
+//printing only name 
+
+console.log(kashi.Name);
+console.log(kashi.sayHi);
+console.log(kashi.Address.city);
+console.log(kashi.Address.City);
+console.log(kashi.sayHi());// it will print undefined as the function is not returning anything. In function above, we have consoe.log not anything returning.
+// for function, we can directly call it here
+kashi.sayHi();
